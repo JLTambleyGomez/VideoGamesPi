@@ -9,7 +9,7 @@
       const pageNumber = req.query.page;
       const { data } = await axios.get('https://api.rawg.io/api/games', {
         params: {
-          key: APIKEY,
+          key: "45ceb1ea70814bde8dd60ed04b9964e5",
           page: pageNumber,
           page_size: pageSize
         }
